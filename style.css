@@ -1,0 +1,119 @@
+/* html {
+    height: 200%;
+} */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+}
+.name {
+    top: 0;
+    left: 0;
+    color: white;
+    position: absolute;
+}
+.projects {
+    top: 0;
+    left: 50vw;
+    color: white;
+    position: absolute;
+}
+.about {
+    top: 0;
+    right: 10px;
+    color: white;
+    position: absolute;
+}
+.info {
+    color: white;
+    position: absolute;
+    width: 15%;
+    font-size: 20px;
+    right: 10px;
+    top: 40px;
+}
+.info2 {
+    color: white;
+    position: absolute;
+    width: 15%;
+    font-size: 20px;
+    right: 10px;
+    top: 20%;
+}
+.info3 {
+    color: white;
+    position: absolute;
+    width: 15%;
+    font-size: 20px;
+    right: 10px;
+    top: 30%;
+}
+.info4 {
+    color: white;
+    position: absolute;
+    width: 15%;
+    font-size: 20px;
+    right: 10px;
+    top: 42%;
+}
+.info5 {
+    color: white;
+    position: absolute;
+    width: 15%;
+    font-size: 20px;
+    right: 10px;
+    top: 53%;
+}
+img {
+    filter: blur(8px);
+}
+img:hover {
+    animation-name: blur;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes blur {
+    from {
+        filter: blur(8px);
+    }
+    to {
+        filter: blur(0px);
+    }
+}
+.blackout {
+    width: 50%;
+    height: 47%;
+    position: absolute;
+    top: 10%;
+    padding: 20px;
+}
+.lab1 {
+    width: 40%;
+    height: 38%;
+    position: absolute;
+    top: 110%;
+    padding: 20px;
+}
+.lab2 {
+    width: 30%;
+    height: 27%;
+    position: absolute;
+    top: 15%;
+    right: 18%;
+    padding: 20px;
+}
+.lab3 {
+    width: 40%;
+    height: 37%;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    padding: 20px;
+}
+.platform {
+    width: 50%;
+    height: 47%;
+    position: absolute;
+    top: 60%;
+    right: -2%;
+    padding: 20px;
+}
